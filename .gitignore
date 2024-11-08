@@ -1,20 +1,10 @@
 
-
 **/.terraform/*
-
 
 .terraform.lock.hcl
 
-
 *.tfstate
 *.tfstate.*
-
-
-
-variables.tf
-
-
-
-
+.tfstate.backup
 
 .terraform/modules/vpc/
