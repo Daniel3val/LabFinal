@@ -1,9 +1,8 @@
-################################
-Acceder a cuenta admin WordPress
 
+# **Acceder a cuenta admin WordPress**
 https://privnote.com/XS7kDddc
 La contraseña para descifrar y obtener las credenciales de WordPress es tu nombre con la primera letra en mayúscula.
-################################
+
 
 # **Arquitectura de Infraestructura  AWS -**
 
