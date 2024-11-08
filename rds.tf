@@ -63,5 +63,10 @@ resource "aws_db_instance" "rds" {
   # Snapshot configuration
   snapshot_identifier = var.snapshot_identifier
   
+  # KMS Key personalizado para encriptación
+  kms_key_id = var.kms_key_id
+
+  
   tags = merge(var.tags, { Name = var.rds_config.identifier })
 }
+

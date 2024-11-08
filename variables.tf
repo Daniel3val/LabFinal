@@ -426,7 +426,7 @@ variable "enabled_cloudwatch_logs" {
 variable "snapshot_identifier" {
   description = "ARN del snapshot para restaurar"
   type        = string
-  default     = "arn:aws:rds:us-east-1:783764584164:snapshot:snapshot-labfinal-daniel-valverde"
+  default     = "arn:aws:rds:us-east-1:783764584164:snapshot:snapshot-labfinal-daniel-2024"
 }
 
 
@@ -702,4 +702,10 @@ variable "vpc_features" {
     enable_dns_hostnames = true
     enable_dns_support = true
   }
+}
+
+variable "kms_key_id" {
+  description = "ARN de la clave KMS personalizada"
+  type        = string
+  default     = "arn:aws:kms:us-east-1:783764584164:key/cd30a858-89c5-42b0-b840-8b5d9da5ca02"
 }
