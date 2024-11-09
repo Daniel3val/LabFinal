@@ -1,3 +1,6 @@
+# **IMPORTANTE: ACCIÓN NECESARIA**
+
+Este repositorio utiliza snapshots para la RDS. Dado que está cifrada y no hay cross-account cuando la snapshot está cifrada, es esencial que crees una nueva snapshot descifrada utilizando la KMS compartida que tiene el ARN arn:aws:kms:us-east-1:783764584164:key/cd30a858-89c5-42b0-b840-8b5d9da5ca02. Una vez creada, introduce el ARN de la nueva snapshot en la variable snapshot_identifier dentro del archivo variables.tf del código de Terraform.
 
 # **Acceder a cuenta admin WordPress**
 https://privnote.com/XS7kDddc
